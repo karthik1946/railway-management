@@ -1,9 +1,9 @@
 # railway-management
 
 # Features
-# used jwt token for secure registration and login
-# search for availability of train between two stations
-# Admin has authorization to manage train , update seats via asmin privileges
+used jwt token for secure registration and login
+search for availability of train between two stations
+Admin has authorization to manage train , update seats via asmin privileges
 
 
 #Tech stack
@@ -12,11 +12,11 @@ database:Mysql
 Authenication:JWT
 
 # Installation 
-#git clone https://github.com/your-username/railway-management-system.git
+git clone https://github.com/your-username/railway-management-system.git
 cd railway-management-system
 # Dependencies
-#npm install express mysql2 bcryptjs jsonwebtoken dotenv cors body-parser   
-#Configure .env file 
+npm install express mysql2 bcryptjs jsonwebtoken dotenv cors body-parser   
+Configure .env file 
 PORT=5000
 DB_HOST=your-mysql-host
 DB_USER=your-mysql-username
